@@ -1,0 +1,3 @@
+[submodule "lava_custom"]
+  path = frappe-bench/apps/lava_custom
+  url = https://github.com/lavaloon-eg/lava_custom
