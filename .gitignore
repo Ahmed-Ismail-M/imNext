@@ -1,0 +1,35 @@
+# Environment Variables
+.env
+env/
+# mounted volume
+sites
+# # development/*
+# !development/README.md
+# !development/vscode-example/
+
+# Pycharm
+.idea
+
+# VS Code
+.vscode/**
+!.vscode/extensions.json
+
+# VS Code devcontainer
+.devcontainer
+*.code-workspace
+frappe/
+# Python
+*.pyc
+__pycache__
+venv
+.bench.cmd
+logs/
+launch.json
+patches.txt
+erpnext/
+Python-3.7.1/
+cfb/
+.gitmodules 
+frappe-bench/archived_sites/cl.localhost/site_config.json
+frappe-bench/archived_sites/cl.localhost/locks/installing.lock
+frappe-bench/Procfile
